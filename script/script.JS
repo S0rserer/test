@@ -17,3 +17,5 @@ personalMovieDB.movies[lastWatched] = rev;
 }
 
 console.log(personalMovieDB.movies);
+
+var a;
