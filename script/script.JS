@@ -1,6 +1,6 @@
 "use strict";
 
-var numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?");
+let numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?");
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -10,7 +10,7 @@ const personalMovieDB = {
     private: false
 };
 
-for (var i = 0; i < numberOfFilms; i++){
+for (let i = 0; i < numberOfFilms; i++){
 const lastWatched = prompt("Какой ваш последний просмотренный фильм?"),
 rev = prompt("На сколько вы его оцените?");
 personalMovieDB.movies[lastWatched] = rev;
